@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name ="TESTGMAILPOM" verbose ="4" > 
+<test name ="Composeemail"> 
+<classes>
+<class name="testcases.TC001_CheckSendingEmailWithAttachment"></class>
+</classes>
+</test>
+
+<test name ="Checksentemail"> 
+<classes>
+<class name="testcases.TC002_CheckSentEmail"></class>
+</classes>
+</test>
+
+
+
+</suite>
+
+<!-- <class name="testcases.TC002_CheckSentEmail">  </class>
+ -->

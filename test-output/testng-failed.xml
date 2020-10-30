@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [TESTGMAILPOM]">
+  <test thread-count="5" verbose="4" name="Composeemail(failed)">
+    <classes>
+      <class name="testcases.TC001_CheckSendingEmailWithAttachment">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="checksendingemail"/>
+          <include name="closebrowser"/>
+          <include name="setinfo"/>
+        </methods>
+      </class> <!-- testcases.TC001_CheckSendingEmailWithAttachment -->
+    </classes>
+  </test> <!-- Composeemail(failed) -->
+  <test thread-count="5" verbose="4" name="Checksentemail(failed)">
+    <classes>
+      <class name="testcases.TC002_CheckSentEmail">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="checksentemail"/>
+          <include name="closebrowser"/>
+        </methods>
+      </class> <!-- testcases.TC002_CheckSentEmail -->
+    </classes>
+  </test> <!-- Checksentemail(failed) -->
+</suite> <!-- Failed suite [TESTGMAILPOM] -->
